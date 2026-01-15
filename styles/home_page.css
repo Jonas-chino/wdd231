@@ -14,7 +14,10 @@ p{
   background-color: rgb(17, 17, 137);
   padding: 250px;
 
-
+}
+header {
+  display: grid;
+  grid-template-columns: 50px auto 44px;
 }
 .navlist{
     display: flex;
@@ -37,6 +40,18 @@ nav ul{
     padding: .5rem;
     font-size: 1em;
     text-decoration: none;
+}
+.hamburger::before {
+  content: "\2630";
+}
+.hamburger.show::before {
+  content: "\00D7";
+}
+.navlist {
+  display: none;
+}
+.navigation.show {
+  display: block;
 }
 .home_grid{
 
@@ -92,9 +107,7 @@ footer{
     grid-row: 1;
 
 }
-header{
-    background-color: rgb(17, 17, 137);
-}
+
 nav ul li:hover{
     background-color: rgb(17, 17, 137);
     transition: .4s;

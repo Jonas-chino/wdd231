@@ -1,0 +1,8 @@
+@media (min-width: 900px) {
+    *{
+        background-color: red;
+    }
+    .navlist {
+    display: block;
+  }
+}
