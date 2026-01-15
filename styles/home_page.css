@@ -1,0 +1,101 @@
+body{
+    font-family: "Noto Sans", sans-serif;
+}
+h1{
+    font-size: 2.32em;
+}
+p{
+    font-size: 1.5em;
+}
+#course-title {
+  display: block;
+  font-size: 2.2em;
+  font-weight: bold;
+  background-color: rgb(17, 17, 137);
+  padding: 250px;
+
+
+}
+.navlist{
+    display: flex;
+    padding-top: 20px;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+    font-size: 2em;
+}
+.navlist li  {
+    flex: 1 1 auto;
+}
+nav ul{
+    list-style:none;
+}
+.navlist a{
+    color: white;
+    display: block;
+    text-align: center;
+    padding: .5rem;
+    font-size: 1em;
+    text-decoration: none;
+}
+.home_grid{
+
+  display:grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-gap: 1em;
+
+}
+
+
+.right_content  {
+    text-decoration: none;
+
+    grid-column: 3/3;
+    grid-row: 1/4;
+    font-size: 1.4em;
+
+}
+.right_content ul{
+    padding-top: 150px;
+
+
+}
+.aboutme{
+    grid-column: 1/3;
+}
+.city_tittle{
+    grid-column: 1/3;
+    text-align: center;
+    border-bottom: solid;
+}
+
+.jonas_img img{
+    width: 75%;
+}
+
+.lapaz_img img{
+    width: 80%;
+}
+
+.aboutme,
+.tittle_right, 
+#course-title,
+footer{
+    color: white;
+    background-color: rgb(17, 17, 137);
+    text-align: center;
+    padding: 10px;
+
+}
+.tittle_right{
+    grid-column: 3/4;
+    grid-row: 1;
+
+}
+header{
+    background-color: rgb(17, 17, 137);
+}
+nav ul li:hover{
+    background-color: rgb(17, 17, 137);
+    transition: .4s;
+}
