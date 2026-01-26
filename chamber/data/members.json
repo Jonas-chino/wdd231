@@ -3,7 +3,7 @@
     {
       "name": "TechNova Solutions",
       "address": "Calle Innovación 404, Silicon Valley",
-      "phone": "+1 (555) 123-4567",
+      "phone": "767657587",
       "website": "https://technova.io",
       "image": "technova_logo.png",
       "membershipLevel": 3,
@@ -12,7 +12,7 @@
     {
       "name": "Panadería El Trigal",
       "address": "Av. Principal 12, Ciudad Central",
-      "phone": "+34 912 345 678",
+      "phone": "7987537",
       "website": "https://eltrigal.com",
       "image": "eltrigal_bread.jpg",
       "membershipLevel": 1,
@@ -21,7 +21,7 @@
     {
       "name": "GreenHorizon Energy",
       "address": "Parque EcoIndustrial Nave 5",
-      "phone": "+52 55 9876 5432",
+      "phone": "72525368",
       "website": "https://greenhorizon.mx",
       "image": "green_horizon_eco.png",
       "membershipLevel": 2,
@@ -30,7 +30,7 @@
     {
       "name": "Studio Creativo Ámbar",
       "address": "Paseo de las Artes 88, Local B",
-      "phone": "+54 11 4567 8901",
+      "phone": "69675784",
       "website": "https://ambardesign.ar",
       "image": "ambar_studio.webp",
       "membershipLevel": 2,
@@ -39,7 +39,7 @@
     {
       "name": "Logística Global Express",
       "address": "Zona Portuaria, Almacén 10",
-      "phone": "+1 (800) 555-0199",
+      "phone": "78537678",
       "website": "https://globalexpress.net",
       "image": "global_logistics.jpg",
       "membershipLevel": 3,
@@ -48,7 +48,7 @@
     {
       "name": "Café Literario 'El Búho'",
       "address": "Callejón del Libro 23",
-      "phone": "+56 2 2345 6789",
+      "phone": "7757671",
       "website": "https://elbuhocafe.cl",
       "image": "buho_cafe_logo.png",
       "membershipLevel": 1,
@@ -57,7 +57,7 @@
     {
       "name": "Consultoría Jurídica Lex",
       "address": "Torre Financiera, Piso 15",
-      "phone": "+34 934 123 456",
+      "phone": "7523788",
       "website": "https://lexconsultores.es",
       "image": "lex_juridica.jpg",
       "membershipLevel": 3,
