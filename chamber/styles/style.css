@@ -99,3 +99,112 @@ nav ul li:hover{
     background-color: rgb(17, 17, 137);
     transition: .4s;
 }
+
+#members {
+    grid-column: 1/3; 
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); 
+}
+
+.member-card {
+    background-color: white;
+    border: 2px solid rgb(17, 17, 137);
+    border-radius: 10px;
+    padding: 1.5em;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+}
+
+.member-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+}
+
+.member-card img {
+    width: 100%;
+    max-width: 200px;
+    height: 150px;
+    object-fit: contain;
+    margin-bottom: 1em;
+    border-radius: 8px;
+}
+
+.member-card h3 {
+    color: rgb(17, 17, 137);
+    font-size: 1.5em;
+    margin: 0.5em 0;
+}
+
+.member-card p {
+    font-size: 1em;
+    margin: 0.5em 0;
+    color: #555;
+}
+
+@media screen and (max-width: 767px) {
+
+    #course-title {
+        font-size: 1.5em;
+        padding: 15px;
+    }
+
+    .navlist {
+        flex-direction: column;
+        font-size: 1.3em;
+        padding-top: 0;
+    }
+
+    .navlist li {
+        width: 100%;
+    }
+
+    .home_grid {
+        grid-template-columns: 1fr;
+        padding: 0.5em;
+    }
+
+ 
+    .main_event,
+    .card,
+    .event_img,
+    .bussi_tittle,
+    #members,
+    .tittle_right,
+    .right_content {
+        grid-column: 1/2;
+    }
+
+
+    #members {
+        grid-template-columns: 1fr;
+    }
+
+
+    .event_img img {
+        width: 95%;
+    }
+
+    h1 {
+        font-size: 1.8em;
+    }
+
+    p {
+        font-size: 1.1em;
+    }
+
+    .bussi_tittle {
+        font-size: 1.5em;
+    }
+
+    .member-card {
+        padding: 1em;
+    }
+
+    .member-card h3 {
+        font-size: 1.3em;
+    }
+
+    .right_content {
+        font-size: 1.2em;
+    }}
