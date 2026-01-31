@@ -39,43 +39,10 @@ nav ul{
     text-decoration: none;
 }
 
-#menu-btn {
-    width: 100%;
-    background-color: #000; 
-    color: white;
-    border: none;
-    padding: 15px;
-    font-size: 1.2rem;
-    cursor: pointer;
-    font-family: inherit;
-}
 
 
-.navlist {
-    display: none;
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    background-color: #222;
-}
 
 
-.navlist.open {
-    display: block;
-}
-
-.navlist li a {
-    display: block;
-    color: white;
-    text-decoration: none;
-    padding: 15px;
-    text-align: center;
-    border-bottom: 1px solid #444;
-}
-
-.navlist li a:hover {
-    background-color: rgb(17, 17, 137); 
-}
 
 
 
@@ -257,17 +224,49 @@ nav ul li:hover{
     align-self: center;
     margin: 0;
 }
-
+.menu-btn {
+        display: block; 
+    }
 
 
 @media screen and (max-width: 767px) {
-    
+    #menu-btn {
+        width: 100%;
+        background-color: #000; 
+        color: white;
+        border: none;
+        padding: 15px;
+        font-size: 1.2rem;
+        cursor: pointer;
+        font-family: inherit;
+}
 
-
-
-    body{
-        background-color: red;
+    .navlist {
+        display: none;
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        background-color: #222;
     }
+
+    .navlist.open {
+        display: block;
+    }
+
+    .navlist li a {
+        display: block;
+        color: white;
+        text-decoration: none;
+        padding: 15px;
+        text-align: center;
+        border-bottom: 1px solid #444;
+}
+
+    .navlist li a:hover {
+        background-color: rgb(17, 17, 137); 
+}
+
+
     #course-title {
         font-size: 1.5em;
         padding: 15px;
