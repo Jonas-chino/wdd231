@@ -60,5 +60,14 @@ function setView(viewType) {
         }
 
 
+const menuButton = document.getElementById('menu-btn');
+const navMenu = document.getElementById('nav-menu');
+
+menuButton.addEventListener('click', () => {
+
+    navMenu.classList.toggle('open');
+});
+
+
 
 loadMembers(); 

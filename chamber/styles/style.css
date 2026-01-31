@@ -38,6 +38,54 @@ nav ul{
     font-size: 1em;
     text-decoration: none;
 }
+
+#menu-btn {
+    width: 100%;
+    background-color: #000; 
+    color: white;
+    border: none;
+    padding: 15px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    font-family: inherit;
+}
+
+
+.navlist {
+    display: none;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background-color: #222;
+}
+
+
+.navlist.open {
+    display: block;
+}
+
+.navlist li a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    text-align: center;
+    border-bottom: 1px solid #444;
+}
+
+.navlist li a:hover {
+    background-color: rgb(17, 17, 137); 
+}
+
+
+
+
+
+
+
+
+
+
 .home_grid{
 
   display:grid;
@@ -141,7 +189,8 @@ nav ul li:hover{
     margin: 0.5em 0;
     color: #555;
 }
-/* ADDED: View toggle buttons for list/grid view */
+
+
 .view-controls {
     grid-column: 1 / 3;
     display: flex;
@@ -174,41 +223,48 @@ nav ul li:hover{
 
 
 #members.list-view {
-            grid-template-columns: 1fr; /* Single column for list view */
-        }
+    grid-template-columns: 1fr; 
+}
 
-        #members.list-view .member-card {
-            display: grid;
-            grid-template-columns: 200px 1fr auto;
-            grid-template-areas: 
-                "image name name"
-                "image info link";
-            text-align: left;
-            align-items: start;
-            gap: 1rem;
-        }
 
-        #members.list-view .member-card img {
-            grid-area: image;
-            margin: 0;
-        }
+#members.list-view .member-card {
+    display: grid;
+    grid-template-columns: 200px 1fr auto;
+    grid-template-areas: 
+        "image name name"
+        "image info link";
+    text-align: left;
+    align-items: start;
+    gap: 1rem;
+}
 
-        #members.list-view .member-card h3 {
-            grid-area: name;
-            margin: 0;
-        }
+#members.list-view .member-card img {
+    grid-area: image;
+    margin: 0;
+}
 
-        #members.list-view .member-card .member-info {
-            grid-area: info;
-        }
+#members.list-view .member-card h3 {
+    grid-area: name;
+    margin: 0;
+}
 
-        #members.list-view .member-card a {
-            grid-area: link;
-            align-self: center;
-            margin: 0;
-        }
+#members.list-view .member-card .member-info {
+    grid-area: info;
+}
+
+#members.list-view .member-card a {
+    grid-area: link;
+    align-self: center;
+    margin: 0;
+}
+
+
 
 @media screen and (max-width: 767px) {
+    
+
+
+
     body{
         background-color: red;
     }
