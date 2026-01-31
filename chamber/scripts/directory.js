@@ -61,7 +61,7 @@ function setView(viewType) {
 
 
 const menuButton = document.getElementById('menu-btn');
-const navMenu = document.getElementById('nav-menu');
+const navMenu = document.getElementById('navlist');
 
 menuButton.addEventListener('click', () => {
 
