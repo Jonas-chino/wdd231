@@ -69,7 +69,7 @@ nav ul{
     border-bottom: solid;
 }
 
-.event_img img{
+.logo_img img{
     width: 75%;
 }
 
@@ -100,8 +100,8 @@ nav ul li:hover{
     transition: .4s;
 }
 
-#members {
-    grid-column: 1/3; 
+    #members {
+    grid-column: 1/4; 
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); 
 }
@@ -141,9 +141,77 @@ nav ul li:hover{
     margin: 0.5em 0;
     color: #555;
 }
+/* ADDED: View toggle buttons for list/grid view */
+.view-controls {
+    grid-column: 1 / 3;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.view-btn {
+    padding: 0.8rem 1.5rem;
+    border: 2px solid rgb(0, 0, 0);
+    background-color: rgb(22, 33, 232);
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+.view-btn:hover {
+    background-color: blueviolet;
+}
+
+.view-btn.active {
+    background-color: rgb(230, 16, 16);
+    color: rgb(255, 255, 255);
+}
+
+
+
+#members.list-view {
+            grid-template-columns: 1fr; /* Single column for list view */
+        }
+
+        #members.list-view .member-card {
+            display: grid;
+            grid-template-columns: 200px 1fr auto;
+            grid-template-areas: 
+                "image name name"
+                "image info link";
+            text-align: left;
+            align-items: start;
+            gap: 1rem;
+        }
+
+        #members.list-view .member-card img {
+            grid-area: image;
+            margin: 0;
+        }
+
+        #members.list-view .member-card h3 {
+            grid-area: name;
+            margin: 0;
+        }
+
+        #members.list-view .member-card .member-info {
+            grid-area: info;
+        }
+
+        #members.list-view .member-card a {
+            grid-area: link;
+            align-self: center;
+            margin: 0;
+        }
 
 @media screen and (max-width: 767px) {
-
+    body{
+        background-color: red;
+    }
     #course-title {
         font-size: 1.5em;
         padding: 15px;
@@ -160,20 +228,22 @@ nav ul li:hover{
     }
 
     .home_grid {
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr ;
         padding: 0.5em;
     }
 
  
     .main_event,
     .card,
-    .event_img,
+    .logo_img,
     .bussi_tittle,
     #members,
     .tittle_right,
-    .right_content {
+    .right_content
+     {
         grid-column: 1/2;
     }
+
 
 
     #members {
@@ -181,7 +251,7 @@ nav ul li:hover{
     }
 
 
-    .event_img img {
+    .logo_img img {
         width: 95%;
     }
 

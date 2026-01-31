@@ -5,7 +5,7 @@
       "address": "Calle Innovación 404, Silicon Valley",
       "phone": "767657587",
       "website": "https://technova.io",
-      "image": "technova_logo.png",
+      "image": "technova-logo.webp",
       "membershipLevel": 3,
       "tagline": "Liderando la transformación digital."
     },
@@ -14,7 +14,7 @@
       "address": "Av. Principal 12, Ciudad Central",
       "phone": "7987537",
       "website": "https://eltrigal.com",
-      "image": "eltrigal_bread.jpg",
+      "image": "tigral-logo.webp",
       "membershipLevel": 1,
       "tagline": "Pan artesanal recién horneado cada mañana."
     },
@@ -23,16 +23,16 @@
       "address": "Parque EcoIndustrial Nave 5",
       "phone": "72525368",
       "website": "https://greenhorizon.mx",
-      "image": "green_horizon_eco.png",
+      "image": "green-logi.webp",
       "membershipLevel": 2,
       "tagline": "Energía solar para un futuro sostenible."
     },
     {
-      "name": "Studio Creativo Ámbar",
+      "name": "Studio Creativo La Paz",
       "address": "Paseo de las Artes 88, Local B",
       "phone": "69675784",
       "website": "https://ambardesign.ar",
-      "image": "ambar_studio.webp",
+      "image": "studio-logo.webp",
       "membershipLevel": 2,
       "tagline": "Diseño gráfico y branding con alma."
     },
@@ -41,25 +41,25 @@
       "address": "Zona Portuaria, Almacén 10",
       "phone": "78537678",
       "website": "https://globalexpress.net",
-      "image": "global_logistics.jpg",
+      "image": "logistica-logo.webp",
       "membershipLevel": 3,
       "tagline": "Conectando mercados en tiempo récord."
     },
     {
-      "name": "Café Literario 'El Búho'",
+      "name": "Restuarant 'El amanecer'",
       "address": "Callejón del Libro 23",
       "phone": "7757671",
       "website": "https://elbuhocafe.cl",
-      "image": "buho_cafe_logo.png",
+      "image": "resto-logo.webp",
       "membershipLevel": 1,
-      "tagline": "El refugio perfecto para los amantes de la lectura."
+      "tagline": "El lugar perfecto para los amantes de la comida tipica."
     },
     {
-      "name": "Consultoría Jurídica Lex",
+      "name": "Consultoría Jurídica illimani",
       "address": "Torre Financiera, Piso 15",
       "phone": "7523788",
       "website": "https://lexconsultores.es",
-      "image": "lex_juridica.jpg",
+      "image": "illimani-logo.webp",
       "membershipLevel": 3,
       "tagline": "Excelencia legal a su servicio."
     }

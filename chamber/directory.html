@@ -15,10 +15,11 @@
 </head>
 <body>
     <header>
+        <img class="logoSvg" src="images/chamber-icon.svg" alt="site logo" width="50" height="50">
         <span id="course-title">La Paz Chamber Commerce </span>
         <nav>
             <ul class="navlist">
-                <li><a href="#">home</a></li>
+                <li><a href="#">Home</a></li>
                 <li><a href="#">Directory</a></li>
                 <li><a href="#">Contac us</a></li>
             </ul>
@@ -26,15 +27,26 @@
     </header>
     <main class="home_grid">
         <div class="main_event"><h1>Events</h1></div>
-        <div class="card">         
+        <div class="card">  
+            <p>welcome to La Paz Chamber Commerce, a place where you can find </p>       
             
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem ut fugiat expedita mollitia deserunt deleniti. Aperiam accusantium, fugit aliquid ratione, incidunt vero earum rerum similique maxime ipsum error voluptates architecto.</p>
         </div>
-            <div class="event_img">
-             <img src="#" alt="event_img"/> 
+            <div class="logo_img">
+             <img src="images/main-logo.webp" alt="event_img"/> 
           </div>
           <h2 class="bussi_tittle">business name</h2>
-        <div id="members" >
+
+
+                  <div class="view-controls">
+            <button class="view-btn active" id="grid-btn" onclick="setView('grid')">
+                 Grid View
+            </button>
+            <button class="view-btn" id="list-btn" onclick="setView('list')">
+                 List View
+            </button>
+        </div>
+        
+        <div id="members" class="grid">
             <div class="loading">Loading members...</div>
         </div>
 

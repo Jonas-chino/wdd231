@@ -39,4 +39,26 @@ function displayMembers(member) {
         membersContainer.appendChild(memberCard);
     });
 }
+
+
+function setView(viewType) {
+    const membersContainer = document.getElementById('members');
+    const gridBtn = document.getElementById('grid-btn');
+    const listBtn = document.getElementById('list-btn');
+
+    if (viewType === 'grid') {
+        // Switch to grid view
+        membersContainer.classList.remove('list-view');
+        gridBtn.classList.add('active');
+        listBtn.classList.remove('active');
+    } else {
+        // Switch to list view
+        membersContainer.classList.add('list-view');
+        listBtn.classList.add('active');
+        gridBtn.classList.remove('active');
+    }
+        }
+
+
+
 loadMembers(); 
