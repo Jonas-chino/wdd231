@@ -6,6 +6,7 @@
     <link rel="icon" href="images/favicon.ico">
     <link rel="stylesheet" href="styles/style.css">
     <script src="scripts/directory.js" defer></script>
+    <script src="scripts/weather.js" defer></script>
     <meta name="description" content="chamber Commerce project for WDD231. for this week we use a json data and asynchrm functions, ">
     <meta name="author" content="Jonas Chino">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -51,10 +52,6 @@
         <div id="members" class="grid">
             <div class="loading">Loading members...</div>
         </div>
-
-
-
-
           <div class="tittle_right"><h1>Next events</h1></div>
           <div class="right_content">
 
@@ -63,7 +60,24 @@
                     <li><a href="#">next up</a></li>
 
                 </ul>
-          </div> 
+          </div>
+
+    <section class="weather-section">
+        <div class="weather-container">
+
+            <div class="current-weather">
+                <h2>Current Weather in La Paz, Bolivia</h2>
+                <div class="current-weather-content" id="current-weather">
+                    <div class="loading">Loading current weather...</div>
+                </div>
+            </div>
+            
+
+            <h2 class="forecast-title">3-Day Weather Forecast</h2>
+            <div class="forecast-container" id="forecast">
+                <div class="loading">Loading forecast...</div>
+            </div>
+
     </main>
     <footer>
         <p>&copy; <span id="currentyear"></span> Alejandro Jonas Chino Mamani, Bolivia</p>
