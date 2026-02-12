@@ -5,8 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="images/favicon.ico">
     <link rel="stylesheet" href="styles/style.css">
-    <script src="scripts/directory.js" defer></script>
+
     <script src="scripts/modal.js" defer></script>
+
     <meta name="description" content="chamber Commerce project for WDD231. for this week we use a json data and asynchrm functions, ">
     <meta name="author" content="Jonas Chino">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -28,7 +29,7 @@
             </ul>
         </nav>
     </header>
-    <main class="home_grid">
+    <main >
         <div class="container">
         <div class="form-wrapper">
         <div class="form-section">
@@ -114,122 +115,82 @@
                         name="timestamp" 
                         id="timestamp">
                 
-                <button type="submit" class="submit-btn">Submit Application</button>
+                <button type="submit" class="submit-btn">Submit Application</button>>
             </form>
         </div>
-                
-                <!-- Membership Level Cards -->
-                <div>
-                    <h2 style="margin-bottom: 20px; color: rgb(17, 17, 137);">Membership Levels</h2>
-                    <div class="membership-cards">
-                        <!-- NP Membership -->
-                        <div class="membership-card np">
-                            <h3>NP Membership</h3>
-                            <p>For Non-Profit Organizations</p>
-                            <button class="learn-more-btn" onclick="openModal('npModal')">Learn More</button>
-                        </div>
-                        
-                        <!-- Bronze Membership -->
-                        <div class="membership-card bronze">
-                            <h3>Bronze Membership</h3>
-                            <p>Essential Business Benefits</p>
-                            <button class="learn-more-btn" onclick="openModal('bronzeModal')">Learn More</button>
-                        </div>
-                        
-                        <!-- Silver Membership -->
-                        <div class="membership-card silver">
-                            <h3>Silver Membership</h3>
-                            <p>Enhanced Networking & Visibility</p>
-                            <button class="learn-more-btn" onclick="openModal('silverModal')">Learn More</button>
-                        </div>
-                        
-                        <!-- Gold Membership -->
-                        <div class="membership-card gold">
-                            <h3>Gold Membership</h3>
-                            <p>Premium Benefits & Exclusive Access</p>
-                            <button class="learn-more-btn" onclick="openModal('goldModal')">Learn More</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+        <div><h1>hols</h1></div>
+        <dialog id="npModal">
+            <button class="close">&times;</button>
+            <h2>NP Membership Benefits</h2>
+            <p class="price">FREE for Non-Profit Organizations</p>
+            <ul>
+                <li>Chamber directory listing</li>
+                <li>Access to monthly networking events</li>
+                <li>Monthly newsletter subscription</li>
+                <li>Community event announcements</li>
+                <li>Basic business resources</li>
+                <li>Volunteer opportunities</li>
+            </ul>
+        </dialog>
+        
+        <dialog id="bronzeModal">
+            <button class="close">&times;</button>
+            <h2>Bronze Membership Benefits</h2>
+            <p class="price">$500/year</p>
+            <ul>
+                <li>All NP Membership benefits</li>
+                <li>Enhanced directory listing with logo</li>
+                <li>10% discount on chamber events</li>
+                <li>Quarterly business workshops</li>
+                <li>Social media mentions (monthly)</li>
+                <li>Ribbon cutting ceremony for new businesses</li>
+                <li>Access to member-only webinars</li>
+            </ul>
+        </dialog>
+        
+        <dialog id="silverModal">
+            <button class="close">&times;</button>
+            <h2>Silver Membership Benefits</h2>
+            <p class="price">$1,200/year</p>
+            <ul>
+                <li>All Bronze Membership benefits</li>
+                <li>Featured listing on chamber website</li>
+                <li>20% discount on chamber events</li>
+                <li>Quarterly spotlight in newsletter</li>
+                <li>Free booth at one annual chamber event</li>
+                <li>Social media spotlight (weekly)</li>
+                <li>Priority registration for all events</li>
+                <li>One complimentary advertising opportunity</li>
+            </ul>
+        </dialog>
+        
+        <dialog id="goldModal">
+            <button class="close">&times;</button>
+            <h2>Gold Membership Benefits</h2>
+            <p class="price">$2,500/year</p>
+            <ul>
+                <li>All Silver Membership benefits</li>
+                <li>Premium homepage spotlight rotation</li>
+                <li>30% discount on all chamber events</li>
+                <li>Exclusive VIP networking events access</li>
+                <li>Monthly featured business spotlight</li>
+                <li>Free booth at all chamber events</li>
+                <li>Leadership development training</li>
+                <li>Direct connection with government officials</li>
+                <li>Sponsorship opportunities at major events</li>
+                <li>Quarterly one-on-one business consultation</li>
+            </ul>
+                <button class="learn-more-btn" data-modal="npModal">Learn More</button>
 
-        <!-- Modals -->
-        <!-- NP Modal -->
-        <div id="npModal" class="modal">
-            <div class="modal-content">
-                <span class="close" onclick="closeModal('npModal')">&times;</span>
-                <h2>NP Membership Benefits</h2>
-                <p class="price">FREE for Non-Profit Organizations</p>
-                <ul>
-                    <li>Chamber directory listing</li>
-                    <li>Access to monthly networking events</li>
-                    <li>Monthly newsletter subscription</li>
-                    <li>Community event announcements</li>
-                    <li>Basic business resources</li>
-                    <li>Volunteer opportunities</li>
-                </ul>
-            </div>
-        </div>
+        </dialog>
 
-        <!-- Bronze Modal -->
-        <div id="bronzeModal" class="modal">
-            <div class="modal-content">
-                <span class="close" onclick="closeModal('bronzeModal')">&times;</span>
-                <h2>Bronze Membership Benefits</h2>
-                <p class="price">$500/year</p>
-                <ul>
-                    <li>All NP Membership benefits</li>
-                    <li>Enhanced directory listing with logo</li>
-                    <li>10% discount on chamber events</li>
-                    <li>Quarterly business workshops</li>
-                    <li>Social media mentions (monthly)</li>
-                    <li>Ribbon cutting ceremony for new businesses</li>
-                    <li>Access to member-only webinars</li>
-                </ul>
-            </div>
-        </div>
 
-        <!-- Silver Modal -->
-        <div id="silverModal" class="modal">
-            <div class="modal-content">
-                <span class="close" onclick="closeModal('silverModal')">&times;</span>
-                <h2>Silver Membership Benefits</h2>
-                <p class="price">$1,200/year</p>
-                <ul>
-                    <li>All Bronze Membership benefits</li>
-                    <li>Featured listing on chamber website</li>
-                    <li>20% discount on chamber events</li>
-                    <li>Quarterly spotlight in newsletter</li>
-                    <li>Free booth at one annual chamber event</li>
-                    <li>Social media spotlight (weekly)</li>
-                    <li>Priority registration for all events</li>
-                    <li>One complimentary advertising opportunity</li>
-                </ul>
-            </div>
-        </div>
 
-        <!-- Gold Modal -->
-        <div id="goldModal" class="modal">
-            <div class="modal-content">
-                <span class="close" onclick="closeModal('goldModal')">&times;</span>
-                <h2>Gold Membership Benefits</h2>
-                <p class="price">$2,500/year</p>
-                <ul>
-                    <li>All Silver Membership benefits</li>
-                    <li>Premium homepage spotlight rotation</li>
-                    <li>30% discount on all chamber events</li>
-                    <li>Exclusive VIP networking events access</li>
-                    <li>Monthly featured business spotlight</li>
-                    <li>Free booth at all chamber events</li>
-                    <li>Leadership development training</li>
-                    <li>Direct connection with government officials</li>
-                    <li>Sponsorship opportunities at major events</li>
-                    <li>Quarterly one-on-one business consultation</li>
-                </ul>
-            </div>
-        </div>
 
+
+
+  </div>
+  </div>
     </main>
     <footer>
         <p>&copy; <span id="currentyear"></span> Alejandro Jonas Chino Mamani, Bolivia</p>

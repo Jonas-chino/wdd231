@@ -361,11 +361,12 @@ nav ul li:hover{
             max-width: 1400px;
             margin: 40px auto;
             padding: 20px;
+            background-color: red;
         }
         
         .form-wrapper {
             display: grid;
-            grid-template-columns: 1fr;
+            grid-template-columns: 1fr ;
             gap: 30px;
         }
         
@@ -443,13 +444,14 @@ nav ul li:hover{
             background-color: rgb(30, 30, 180);
         }
         
-        /* Membership Cards */
+
+
+
         .membership-cards {
             display: grid;
             grid-template-columns: 1fr;
             gap: 20px;
         }
-        
         .membership-card {
             background: white;
             padding: 25px;
@@ -460,23 +462,18 @@ nav ul li:hover{
             animation: slideIn 0.6s ease-out forwards;
             opacity: 0;
         }
-        
         .membership-card:nth-child(1) {
             animation-delay: 0.1s;
         }
-        
         .membership-card:nth-child(2) {
             animation-delay: 0.2s;
         }
-        
         .membership-card:nth-child(3) {
             animation-delay: 0.3s;
         }
-        
         .membership-card:nth-child(4) {
             animation-delay: 0.4s;
         }
-        
         @keyframes slideIn {
             from {
                 opacity: 0;
@@ -487,34 +484,30 @@ nav ul li:hover{
                 transform: translateY(0);
             }
         }
-        
         .membership-card:hover {
             transform: translateY(-5px);
             box-shadow: 0 10px 25px rgba(0,0,0,0.15);
         }
-        
         .membership-card h3 {
             color: rgb(17, 17, 137);
             font-size: 1.5em;
             margin-bottom: 15px;
         }
-        
+        .membership-card p {
+            font-size: 1em;
+        }
         .membership-card.np {
             border-top: 4px solid #27ae60;
         }
-        
         .membership-card.bronze {
             border-top: 4px solid #cd7f32;
         }
-        
         .membership-card.silver {
             border-top: 4px solid #c0c0c0;
         }
-        
         .membership-card.gold {
             border-top: 4px solid #ffd700;
         }
-        
         .learn-more-btn {
             display: inline-block;
             margin-top: 15px;
@@ -528,82 +521,41 @@ nav ul li:hover{
             border: none;
             font-size: 1em;
         }
-        
         .learn-more-btn:hover {
             background-color: rgb(30, 30, 180);
         }
         
-        /* Modal Styles */
-        .modal {
-            display: none;
-            position: fixed;
-            z-index: 1000;
-            left: 0;
-            top: 0;
-            width: 100%;
-            height: 100%;
-            background-color: rgba(0,0,0,0.5);
-            animation: fadeIn 0.3s;
-        }
-        
-        @keyframes fadeIn {
-            from { opacity: 0; }
-            to { opacity: 1; }
-        }
-        
-        .modal-content {
-            background-color: white;
-            margin: 5% auto;
-            padding: 30px;
-            border-radius: 10px;
+        /* Dialog Styles */
+        dialog {
             width: 90%;
             max-width: 600px;
-            position: relative;
-            animation: slideDown 0.3s;
+            background-color: white;
+            border: none;
+            border-radius: 10px;
+            padding: 30px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.3);
         }
         
-        @keyframes slideDown {
-            from {
-                transform: translateY(-50px);
-                opacity: 0;
-            }
-            to {
-                transform: translateY(0);
-                opacity: 1;
-            }
+        dialog::backdrop {
+            background-color: rgba(0, 0, 0, 0.5);
         }
         
-        .close {
-            position: absolute;
-            right: 20px;
-            top: 15px;
-            font-size: 2em;
-            font-weight: bold;
-            color: #aaa;
-            cursor: pointer;
-            transition: color 0.3s;
-        }
-        
-        .close:hover {
-            color: #000;
-        }
-        
-        .modal-content h2 {
+        dialog h2 {
             color: rgb(17, 17, 137);
             margin-bottom: 20px;
         }
         
-        .modal-content ul {
+        dialog ul {
             list-style: none;
             padding: 0;
         }
         
-        .modal-content ul li {
+        dialog ul li {
             padding: 10px 0;
             border-bottom: 1px solid #eee;
         }
         
-        .modal-content ul li:before {
+        dialog ul li:before {
             content: "✓ ";
             color: rgb(17, 17, 137);
             font-weight: bold;
@@ -615,7 +567,24 @@ nav ul li:hover{
             color: rgb(17, 17, 137);
             font-weight: bold;
             margin: 20px 0;
-        }    
+        }
+        
+        .close {
+            position: absolute;
+            right: 20px;
+            top: 15px;
+            font-size: 2em;
+            font-weight: bold;
+            color: #aaa;
+            cursor: pointer;
+            background: none;
+            border: none;
+            transition: color 0.3s;
+        }
+        
+        .close:hover {
+            color: #000;
+        }
 
 
 
