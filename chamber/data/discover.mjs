@@ -4,42 +4,42 @@ export const places = [
                 name: "teleferico ",
                 address: "all city",
                 description: "The world's highest cable car system with breathtaking views",
-                Img: "images/telef.webp"
+                image: "images/telef.webp"
             },
             {
                 id: 2,
-                name: "Riverside Park",
+                name: "Illimani",
                 address: "789 Park Avenue",
                 description: "A beautiful park with trails, playgrounds, and picnic areas. Great for families and outdoor activities.",
-                Img: "🌳"
+                image: "images/illimani-1.webp"
             },
             {
                 id: 3,
-                name: "Artisan Market",
+                name: "Mercadode las brujas",
                 address: "321 Market Street",
                 description: "Shop local crafts and food from over 75 vendors. Open Wednesday through Sunday.",
-                Img: "🎨"
+                image: "images/mer_brujas.webp"
             },
             {
                 id: 4,
-                name: "Grand Theatre",
+                name: "Plaza murillo",
                 address: "555 Broadway",
                 description: "Historic theater from the 1920s with concerts, plays, and comedy shows throughout the year.",
-                Img: "🎭"
+                image: "images/pmurillo.webp"
             },
             {
                 id: 5,
-                name: "Culinary School",
-                address: "234 Chef's Way",
+                name: "tihuanacu",
+                address: "nort of provincia murillo",
                 description: "Take cooking classes or enjoy meals at the student restaurant. Fresh, local ingredients used daily.",
-                Img: "👨‍🍳"
+                image: "images/tiwa.webp"
             },
             {
                 id: 6,
-                name: "Innovation Hub",
+                name: "mirardor",
                 address: "888 Tech Boulevard",
                 description: "Co-working space for entrepreneurs and startups. Offers workshops and networking events.",
-                Img: "💡"
+                image: "images/lapaz.let-1.webp"
             },
             {
                 id: 7,

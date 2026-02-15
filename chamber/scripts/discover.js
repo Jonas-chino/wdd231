@@ -4,9 +4,10 @@ import { places } from '../data/discover.mjs';
 window.addEventListener('DOMContentLoaded', function() {
     loadCards();
     checkVisit();
-    updateFooter();
+
 });
 
+// Function to create and display cards
 // Function to create and display cards
 function loadCards() {
     const container = document.getElementById('cardsContainer');
@@ -26,11 +27,14 @@ function loadCards() {
         const figure = document.createElement('figure');
         figure.className = 'card-image';
         
-        const icon = document.createElement('div');
-        icon.className = 'card-icon';
-        icon.textContent = place.icon;
+        const img = document.createElement('img');
+        img.src = place.image;
+        img.alt = place.name;
+        img.loading = 'lazy';
+        img.width = 300;
+        img.height = 200;
         
-        figure.appendChild(icon);
+        figure.appendChild(img);
         
         // Create address
         const address = document.createElement('address');
@@ -109,9 +113,3 @@ function checkVisit() {
     }, 10000);
 }
 
-// Function to update footer with current year and last modified date
-function updateFooter() {
-    const currentYear = new Date().getFullYear();
-    document.getElementById('currentYear').textContent = currentYear;
-    document.getElementById('lastModified').textContent = document.lastModified;
-}
