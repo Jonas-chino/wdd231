@@ -63,7 +63,7 @@ function loadCards() {
 
 
 function learnMore(placeName) {
-    alert('Thanks for your interest in ' + placeName + '! Call us at (555) 123-4567 for more information.');
+    alert('Thanks for your interest in ' + placeName + 'call 767626250 for more info.');
 }
 
 
@@ -104,7 +104,7 @@ function checkVisit() {
     
 
     localStorage.setItem('lastVisit', today.toString());
-    
+
     setTimeout(function() {
         messageDiv.classList.add('hidden');
     }, 10000);
