@@ -1,10 +1,10 @@
 export const places = [
             {
                 id: 1,
-                name: "Heritage Museum",
-                address: "456 History Lane",
-                description: "Learn about our local history with interesting exhibits and artifacts from the past 150 years.",
-                Img: "🏛️"
+                name: "teleferico ",
+                address: "all city",
+                description: "The world's highest cable car system with breathtaking views",
+                Img: "images/telef.webp"
             },
             {
                 id: 2,
