@@ -9,50 +9,50 @@ export const places = [
             {
                 id: 2,
                 name: "Illimani",
-                address: "789 Park Avenue",
-                description: "A beautiful park with trails, playgrounds, and picnic areas. Great for families and outdoor activities.",
+                address: "chacaltalla",
+                description: "A beautiful mountain",
                 image: "images/illimani-1.webp"
             },
             {
                 id: 3,
                 name: "Mercadode las brujas",
-                address: "321 Market Street",
-                description: "Shop local crafts and food from over 75 vendors. Open Wednesday through Sunday.",
+                address: "sagarnaga 250",
+                description: "a street with strange things for sale",
                 image: "images/mer_brujas.webp"
             },
             {
                 id: 4,
                 name: "Plaza murillo",
-                address: "555 Broadway",
-                description: "Historic theater from the 1920s with concerts, plays, and comedy shows throughout the year.",
+                address: "av sucre",
+                description: "historic square that has been there since the founding of the city.",
                 image: "images/pmurillo.webp"
             },
             {
                 id: 5,
                 name: "tihuanacu",
                 address: "nort of provincia murillo",
-                description: "Take cooking classes or enjoy meals at the student restaurant. Fresh, local ingredients used daily.",
+                description: "ruins of an ancient civilization",
                 image: "images/tiwa.webp"
             },
             {
                 id: 6,
-                name: "mirardor",
-                address: "888 Tech Boulevard",
-                description: "Co-working space for entrepreneurs and startups. Offers workshops and networking events.",
+                name: "mirador",
+                address: "av Buenos aires",
+                description: "a big letter la paz, place where you can see the all city",
                 image: "images/lapaz.let-1.webp"
             },
             {
                 id: 7,
-                name: "Botanical Gardens",
+                name: "valle de la luna",
                 address: "999 Garden Path",
-                description: "Twenty acres of beautiful gardens with native and exotic plants. Includes a butterfly pavilion.",
-                Img: "🌺"
+                description: "a place called valle de la luna, couse according Niel Amstorng its similar to the moon",
+                image: "images/valle.webp"
             },
             {
                 id: 8,
-                name: "Sports Complex",
-                address: "100 Stadium Drive",
-                description: "Modern facility with courts, fields, and a fitness center. Hosts leagues and tournaments.",
+                name: "Copacabana",
+                address: "norte de la paz",
+                description: "a beautiful place called playad e copacabana, where its a city nearby the titicaca lake ",
                 Img: "⚽"
             }
         ];
