@@ -53,6 +53,6 @@ export const places = [
                 name: "Copacabana",
                 address: "norte de la paz",
                 description: "a beautiful place called playad e copacabana, where its a city nearby the titicaca lake ",
-                Img: "⚽"
+                image: "images/copa.webp"
             }
         ];
