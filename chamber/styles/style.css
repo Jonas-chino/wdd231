@@ -726,13 +726,8 @@ nav ul li:hover{
 
 
 
-    .forecast-container {
-    grid-template-columns: 1fr;
-    }
 
-    .current-temp {
-    font-size: 2.5em;
-    }
+
 
     .weather-icon-large {
     margin: 0 auto;
