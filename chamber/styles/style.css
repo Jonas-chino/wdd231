@@ -725,23 +725,13 @@ nav ul li:hover{
 
 
 
-
-
-
-
-    .weather-icon-large {
-    margin: 0 auto;
-    }
-
-
- /* Cards Grid - Mobile First */
         .discover-grid {
             display: grid;
             grid-template-columns: 1fr;
             gap: 20px;
         }
 
-        /* Card Styles */
+
         .card {
             background-color: white;
             border: 1px solid #ddd;
