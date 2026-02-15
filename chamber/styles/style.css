@@ -262,6 +262,7 @@ nav ul li:hover{
         grid-template-columns: auto 1fr;
         gap: 30px;
         align-items: center;
+
     }
     
     .weather-icon-large {
@@ -723,10 +724,7 @@ nav ul li:hover{
     }}
 
 
-    .current-weather-content {
-    grid-template-columns: 1fr;
-    text-align: center;
-    }
+
 
     .forecast-container {
     grid-template-columns: 1fr;
