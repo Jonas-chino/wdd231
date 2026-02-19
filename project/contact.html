@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <script src="scripts/menu.js" defer></script>
+    <script src="scripts/cards.js" defer></script>
+    <script src="scripts/grid.js" defer></script>
+        <script src="scripts/date.js" defer></script>
+
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://Jonas-chino.github.io/wdd231/project/index.html">
+    <meta property="og:title" content="Magic Spoon">
+    <meta property="og:description" content="magic spoon its a resturant lacted in la paz bolivia, in this websiteyou can see our manu and make a Reservation">
+    <meta property="og:image" content="https://Jonas-chino.github.io/wdd231/project/images/hero.webp">
+    <meta name="description" content="final project of WDD231, magic spoon ">
+    <meta name="author" content="Jonas Chino">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Merriweather:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <title>Magic Spoon </title>
+</head>
+<body>
+    <header>
+    <img class="logoSvg" src="images/logo.svg" alt="site logo" width="50" height="50">
+    <span id="course-title">Magic Spoon</span>
+    <nav>
+        <button id="menu-button" aria-label="Abrir menú">☰</button>
+        
+            <ul class="navlist" id="navlist">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="contact.html">Contact us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+<main>
+    <section class="form-container">
+        <h2>Make a Reservation</h2>
+        <p>Complete the information to reserve your place with us.</p>
+        
+        <form action="thankyou.html" method="get" class="reservation-form">
+            <label for="fname">Full name</label>
+            <input type="text" id="fname" name="fname" required placeholder="john doe">
+
+            <label for="email">Email address</label>
+            <input type="email" id="email" name="email" required placeholder="youremail.com">
+
+            <label for="date">Reservation date</label>
+            <input type="date" id="date" name="date" required>
+
+            <label for="guests">Number of people</label>
+            <input type="number" id="guests" name="guests" min="1" max="20" required>
+
+            <input type="submit" value="confirm " class="submit-btn">
+        </form>
+    </section>
+</main>
+    <footer>
+        <p>&copy; <span id="currentyear"></span> Alejandro Jonas Chino Mamani, Bolivia</p>
+        <p id="lastModified"></p>
+    </footer>
+
+</body>
+
+</html> 

@@ -1,0 +1,79 @@
+{
+  "menu": [
+    {
+      "name": "Plato Paceño",
+      "description": "A traditional dish from La Paz featuring corn on the cob, lima beans, fried cheese, and potatoes, served with beef or roasted meat.",
+      "image": "images/paceno.webp"
+    },
+    {
+      "name": " Sajta",
+      "description": "Chicken in a spicy yellow chili sauce, served with dehydrated potatoes (tunta) coated in egg and a fresh onion and tomato salad.",
+      "image": "images/sajta.webp"
+    },
+    {
+      "name": "Salteña",
+      "description": "A juicy Bolivian pastry filled with beef, potatoes, and spices, baked to golden perfection.",
+      "image": "images/saltena.webp"
+    },
+    {
+      "name": "kawi soup",
+      "description": "A delicious suop from the west of Bolivia ",
+      "image": "images/kawi.webp"
+    },
+    {
+      "name": "Mocochinchi Drink",
+      "description": "A refreshing traditional beverage made from dehydrated peaches infused with cinnamon and cloves.",
+      "image": "images/mocochinchi.webp"
+    },
+    {
+      "name": "Pique Macho",
+      "description": "A massive plate of bite-sized beef, sausages, french fries, onions, peppers, and boiled eggs topped with spicy sauce.",
+      "image": "images/pique-macho.webp"
+    },
+    {
+      "name": "Silpancho",
+      "description": "A thin, breaded beef schnitzel served over a bed of rice and potatoes, topped with a fried egg and beet salad.",
+      "image": "images/silpancho.webp"
+    },
+    {
+      "name": "Chicharron",
+      "description": "a piece of pork 'adobado' in an special salsa",
+      "image": "images/Chicharron.webp"
+    },
+    {
+      "name": "Chancho",
+      "description": "a pork prepared in a cross for more thank 1 hour ",
+      "image": "images/chancho.webp"
+    },
+    {
+      "name": "Keperi",
+      "description": "Made with a beef cut from the lower part of the abdomen, between the shoulder blade and the rib.",
+      "image": "images/keperi.webp"
+    },
+    {
+      "name": "Fricase",
+      "description": "Traditional 'ahogado' that consists of meat (usually chicken or pork) cut into pieces and slow-cooked.",
+      "image": "images/fricase.webp"
+    },
+    {
+      "name": "majadito",
+      "description": "A traditional food from Santa Cruz ",
+      "image": "images/majadito.webp"
+    },
+    {
+      "name": "soup mani",
+      "description": "It is one of the most delicious and traditional dishes of Bolivia. It is based on peanuts, rice, peas, and potatoes. It is usually served with pieces of meat or chicken.",
+      "image": "images/mani.webp"
+    },
+    {
+      "name": "Mondongo",
+      "description": "From Sucre, Chuquisaca, it consists of a stew made with pork meat and skin",
+      "image": "images/Mondongo.webp"
+    },
+    {
+      "name": "Picana",
+      "description": "A traditional food where is common make it on Christmas",
+      "image": "images/picana.webp"
+    }
+  ]
+}

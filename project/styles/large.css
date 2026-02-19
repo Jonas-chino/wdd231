@@ -1,0 +1,40 @@
+@media (min-width: 768px) {
+    #menu-button {
+        display: none; 
+    }
+    .navlist {
+        display: flex; 
+        position: static;
+        flex-direction: row;
+        width: auto;
+    }
+
+.hero {
+    background-color: #f4f4f4;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-bottom: 2px solid #ddd;
+}
+.hero-img {
+    grid-column: 1;
+    grid-row: 1;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    opacity: 0.8; 
+}
+.hero-content {
+    grid-column: 1;
+    grid-row: 1;
+    z-index: 10;
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    text-align: center;
+}
+
+
+
+}

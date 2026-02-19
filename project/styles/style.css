@@ -1,0 +1,266 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+main{
+    background-color: #FFF9F5;
+}
+header {
+    background-color: #FF5555;
+    color: white;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+header nav a {
+    color: white;
+    text-decoration: none;
+}
+#menu-button {
+    display: block; 
+    font-size: 2rem;
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+    
+    
+}
+/*nav list*/
+.navlist {
+    display: none; 
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    background-color: #FF5555;
+    padding: 1rem 0;
+    z-index: 100;
+}
+.navlist :hover{
+    background-color: #494545;
+    transition: 0.9s;
+}
+
+.navlist.open {
+    display: flex;
+}
+
+/*hero style*/
+
+.hero {
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    height: 350px;
+    position: relative;
+    background-color: #f4f4f4;
+}
+
+.hero-img {
+    grid-column: 1;
+    grid-row: 1;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.8;
+    
+}
+
+.hero-content {
+    grid-column: 1;
+    grid-row: 1;
+    z-index: 10;
+    color: white;
+    padding: 20px;
+    text-align: center;
+
+}
+
+/* button cta */
+.cta-button {
+    display: inline-block;
+    padding: 18px 40px;
+    background-color: #FF5555; 
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border-radius: 50px; 
+    transition: all 0.3s    ;
+    box-shadow: 0 10px 20px rgba(255, 85, 85, 0.3); 
+    border: none;
+    cursor: pointer;
+}
+
+.cta-button:hover {
+    background-color: #ff3333;
+    transform: scale(1.1); 
+    box-shadow: 0 15px 30px rgba(255, 85, 85, 0.5); 
+}
+
+
+.cta-button:active {
+    transform: scale(0.95); 
+}
+
+.menu-controls {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    padding: 20px;
+    background-color: #fff;
+}
+
+.menu-controls button {
+    padding: 10px 20px;
+    border: 1px solid #d35400;
+    background-color: white;
+    color: #d35400;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+.menu-controls button.active {
+    background-color: #d35400;
+    color: white;
+}
+
+/* list view*/
+
+.dishes-grid.list {
+    display: flex;
+    flex-direction: column;
+    max-width: 800px; 
+}
+
+.dishes-grid.list .card {
+    flex-direction: row; 
+    align-items: center;
+    height: auto;
+}
+
+.dishes-grid.list .card img {
+    width: 150px; 
+    height: 150px;
+}
+
+
+.dishes-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Card style */
+.card {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+    display: flex;
+    flex-direction: column;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover; 
+    background-color: #eee; 
+}
+
+.card-content {
+    padding: 15px;
+}
+
+.card h3 {
+    margin: 0 0 10px 0;
+    color: #d35400; 
+}
+
+.card p {
+    font-size: 0.9rem;
+    color: #555;
+    margin: 0;
+}
+
+/*form style*/
+.form-container {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #e7cbb8;
+}
+
+.reservation-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.reservation-form label {
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+
+}
+
+.reservation-form input, 
+.reservation-form textarea {
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.submit-btn {
+    background-color: #FF937E;
+    color: rgb(0, 0, 0);
+    border: none;
+    padding: 15px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition:  0.3s;
+}
+
+.submit-btn:hover {
+    background-color: #FF5555;
+}
+.thankyou-message{
+    text-align: center;
+}
+
+footer {
+    background-color: #FF5555;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+
