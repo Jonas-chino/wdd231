@@ -4,9 +4,9 @@
 
     if (urlParams.has('fname')) {
         displayElement.innerHTML = `
-            <p><strong>Cliente:</strong> ${urlParams.get('fname')}</p>
-            <p><strong>Fecha:</strong> ${urlParams.get('date')}</p>
-            <p><strong>Invitados:</strong> ${urlParams.get('guests')}</p>
-            <p>Hemos enviado un detalle a: <em>${urlParams.get('email')}</em></p>
+            <p><strong>Client:</strong> ${urlParams.get('fname')}</p>
+            <p><strong>Date:</strong> ${urlParams.get('date')}</p>
+            <p><strong>People:</strong> ${urlParams.get('guests')}</p>
+            <p>We send a email to : <em>${urlParams.get('email')}</em></p>
         `;
     }
