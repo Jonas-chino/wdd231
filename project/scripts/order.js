@@ -7,6 +7,6 @@
             <p><strong>Client:</strong> ${urlParams.get('fname')}</p>
             <p><strong>Date:</strong> ${urlParams.get('date')}</p>
             <p><strong>People:</strong> ${urlParams.get('guests')}</p>
-            <p>We send a email to : <em>${urlParams.get('email')}</em></p>
+            <p>We send an email to : <em>${urlParams.get('email')}</em></p>
         `;
     }
